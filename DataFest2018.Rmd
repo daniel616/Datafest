@@ -1,0 +1,18 @@
+---
+title: "DataFest2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load packages and data
+
+```{r load-packages}
+library(tidyverse)
+```
+
+```{r load-data}
+jobs <- read_csv("data/datafest2018.csv")
+```
